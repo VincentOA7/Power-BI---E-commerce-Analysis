@@ -1,4 +1,4 @@
-# Maven Fuzzy | E-commerce Performance Dashboard
+# Maven Fuzzy | E-commerce Analysis
 
 **An end-to-end e-commerce analytics project using Power BI, Power Query, DAX, and data modeling.**
 
