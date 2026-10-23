@@ -87,40 +87,37 @@ This document describes the tables and key columns used in the Maven Fuzzy Power
 | `user_id`             | User associated with the pageview      | Customer identifier             |
 | utm_id                | Tracking module associated with the pageview  | Foreign key to UTM.      |
 
-6. Dim_product — Product Dimension
-Purpose: Stores product identifiers and product names to support product-level sales and performance analysis.
-Grain: One row per pageview.
-Column
-Meaning
-Key/notes
-product_id
-Unique identifier for each product
-Primary key
-product_name
-Name of the product
-7. Dim_user — User Dimension
-Purpose: Stores user identifiers and device information to support analysis of customer activity across devices.
-Grain: One row per pageview.
-Column
-Meaning
-Key/notes
-user_id
-Unique identifier for each user
-Primary key
-device_type
-Type of device associated with the user
-8. Dim_utm — Marketing Attribution Dimension
-Purpose: Stores UTM tracking attributes used to identify marketing traffic sources, campaign names, and content variations.
-Grain: One row per pageview.
-Column
-Meaning
-Key/notes
-utm_id
-Unique identifier for each UTM record
-Primary key
-utm_content
-Identifies the specific ad, creative, or link variation used in a campaign.
-utm_campaign
-Identifies the marketing campaign associated with website traffic.
-utm_source
-Identifies the platform or source that referred traffic.
+## 6. Dim_product — Product Dimension
+
+**Purpose:** Stores product identifiers and product names to support product-level sales and performance analysis.
+
+**Grain:** One row per pageview.
+
+| Column         | Meaning                            | Key/notes   |
+| -------------- | ---------------------------------- | ----------- |
+| `product_id`   | Unique identifier for each product | Primary Key |
+| `product_name` | Name of the product                |             |
+
+## 7. Dim_user — User Dimension
+
+**Purpose:** Stores user identifiers and device information to support analysis of customer activity across devices.
+
+**Grain:** One row per pageview.
+
+| Column        | Meaning                                 | Key/notes   |
+| ------------- | --------------------------------------- | ----------- |
+| `user_id`     | Unique identifier for each user         | Primary Key |
+| `device_type` | Type of device associated with the user |             |
+
+## 8. Dim_utm — Marketing Attribution Dimension
+
+**Purpose:** Stores UTM tracking attributes used to identify marketing traffic sources, campaign names, and content variations.
+
+**Grain:** One row per pageview.
+
+| Column         | Meaning                                                                     | Key/notes   |
+| -------------- | --------------------------------------------------------------------------- | ----------- |
+| `utm_id`       | Unique identifier for each UTM record                                       | Primary Key |
+| `utm_content`  | Identifies the specific ad, creative, or link variation used in a campaign. |             |
+| `utm_campaign` | Identifies the marketing campaign associated with website traffic.          |             |
+| `utm_source`   | Identifies the platform or source that referred traffic.                    |             |
