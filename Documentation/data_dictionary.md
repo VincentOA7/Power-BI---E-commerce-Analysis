@@ -95,9 +95,9 @@ This document describes the tables and key columns used in the Maven Fuzzy Power
 **Grain:** One row per pageview.
 
 
-Column     	         Meaning                                 	Key/notes.      
-product_id	         Unique identifier for each product             Primary Key	
-product_name	             Name of the product.
+|Column     	        | Meaning                            |Key/notes.      
+|product_id	         |Unique identifier for each product  | Primary Key	
+|product_name	       | Name of the product                |
 
 
 
@@ -108,9 +108,9 @@ product_name	             Name of the product.
 
 **Grain:** One row per pageview.
 
-Column                    Meaning                               Key/notes
-user_id	           Unique identifier for each user                    Primary key
-device_type	         Type of device associated with the user
+|Column                   | Meaning                                  | Key/notes
+|user_id	                 |Unique identifier for each user           | Primary key
+|device_type	             |Type of device associated with the user   |
 
 
 
@@ -121,10 +121,10 @@ device_type	         Type of device associated with the user
 
 **Grain:** One row per pageview.
 
-Column                            	Meaning                          Key/notes
-utm_id		              Unique identifier for each UTM record          Primary key
-utm_content	          Identifies the specific ad, creative, or link variation 
+|Column                            |	Meaning                                     |Key/notes
+|utm_id		             | Unique identifier for each UTM record                    | Primary key
+|utm_content	         |Identifies the specific ad, creative, or link variation 
                                    used in a campaign.
-utm_campaign	        	Identifies the marketing campaign associated 
+|utm_campaign	        |	Identifies the marketing campaign associated 
                                 with website traffic.
-utm_source	         Identifies the platform or source that referred traffic
+|utm_source	          | Identifies the platform or source that referred traffic
