@@ -106,4 +106,4 @@ The Q3 2014 refund spike provides a focused example of how data analysis can rev
 
 ## Disclaimer
 
-This project is intended for analytical and portfolio purposes. Findings and recommendations are based on the available data and should be interpreted in the context of the dataset's limitations. Any source data should only be published where sharing is permitted.
+This project is intended for analytical and portfolio purposes. Findings and recommendations are based on the available data and should be interpreted in the context of the dataset's limitations.
