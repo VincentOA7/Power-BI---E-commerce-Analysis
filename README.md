@@ -96,8 +96,7 @@ Based on the analysis, the main recommended actions are:
 6. Validate product-level sales before making inventory and promotional decisions.
 
 ## Dashboard Preview
-![image alt](https://github.com/VincentOA7/Power-BI---E-commerce-Analysis/blob/3b04184eb0e47660dd5e456ef19d821f239463d4/Documentation/Data%20Model.png)
-
+![image alt](https://github.com/VincentOA7/Power-BI---E-commerce-Analysis/blob/427a154086072512bdae41311dcaf4e5539d4f65/Screenshot/Maven%20Fuzzy%20Dashboard.png)
 
 ## Conclusion
 
