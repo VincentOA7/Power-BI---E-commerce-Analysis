@@ -25,11 +25,11 @@ This document describes the relationships between dimension tables and fact tabl
 
 
 
-| ---------------------- | --------------------------------------------------- |
-| Cardinality            | One-to-many (`1:*`)                                 |
-| Dimension table        | One side                                            |
-| Fact table             | Many side                                           |
-| Cross-filter direction | Single                                              |
-| Filter direction       | Dimension to fact                                   |
-| Relationship status    | Active                                              |
+
+Cardinality   - One-to-many (`1:*`)                                 
+Dimension table  - One side                                            
+Fact table        - Many side                                           
+Cross-filter direction  -  Single                                              
+Filter direction     -  Dimension to fact                                   
+Relationship status   -  Active                                              
 
