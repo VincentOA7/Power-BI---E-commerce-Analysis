@@ -95,7 +95,9 @@ This document describes the tables and key columns used in the Maven Fuzzy Power
 **Grain:** One row per pageview.
 
 
-|Column     	        | Meaning                            |Key/notes.      
+|Column     	        | Meaning                            |Key/notes
+|
+| --------------------- | -------------------------------------- | ------------------------------- |
 |product_id	         |Unique identifier for each product  | Primary Key	
 |product_name	       | Name of the product                |
 
@@ -109,6 +111,8 @@ This document describes the tables and key columns used in the Maven Fuzzy Power
 **Grain:** One row per pageview.
 
 |Column                   | Meaning                                  | Key/notes
+|
+| --------------------- | -------------------------------------- | ------------------------------- |
 |user_id	                 |Unique identifier for each user           | Primary key
 |device_type	             |Type of device associated with the user   |
 
@@ -122,6 +126,8 @@ This document describes the tables and key columns used in the Maven Fuzzy Power
 **Grain:** One row per pageview.
 
 |Column                            |	Meaning                                     |Key/notes
+|
+| --------------------- | -------------------------------------- | ------------------------------- |
 |utm_id		             | Unique identifier for each UTM record                    | Primary key
 |utm_content	         |Identifies the specific ad, creative, or link variation 
                                    used in a campaign.
