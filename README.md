@@ -39,13 +39,22 @@ Monitor refund amounts, refund counts, and refunds as a percentage of revenue ea
 The report is organized into the following analytical sections:
 
 • KPI Overview: Displays essential business metrics, including Total Revenue, Total Orders, Average Order Value, Total Costs, Gross Profit, Total Refund Amount, and Session Conversion Rate.
+
 • Revenue and Orders Trend: Visualizes quarterly revenue and order volume trends to identify growth patterns and sales performance over time.
+
 • Refund Analysis: Tracks refund amounts and refunded order items to highlight refund trends and potential product or operational issues.
+
 • Revenue vs. Refund Analysis: Compares annual revenue against refund amounts to evaluate sales performance and refund impact.
+
 • Device Performance: Analyzes total orders by device type, including desktop and mobile, to understand customer purchasing behavior across devices.
+
 • Product Sales Analysis: Identifies top-performing products based on total revenue, enabling comparisons of product contributions to overall sales.
+
 • Traffic Source Analysis: Visualizes website sessions by traffic source, helping assess the effectiveness of search, social, and other acquisition channels.
+
 • Marketing Campaign Analysis: Evaluates website sessions across marketing campaigns to understand traffic distribution and campaign reach.
+
+
 • Products by Units Sold: Provides a tabular breakdown of products by order count to support product performance tracking and inventory planning.
 
 
