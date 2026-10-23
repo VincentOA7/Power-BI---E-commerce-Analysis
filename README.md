@@ -27,7 +27,7 @@ Investigate the products, orders, and customer experiences associated with the Q
 
 Monitor refund amounts, refund counts, and refunds as a percentage of revenue each quarter to identify unusual changes early and support timely corrective action.
 
-## Tools and Technologies 🧰 🛠️ 
+## Tools and Technologies 
 
 • **Microsoft Power BI** — Interactive dashboards and visual analytics
 • **Power Query** — Data cleaning and transformation
