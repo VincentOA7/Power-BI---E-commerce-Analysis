@@ -30,8 +30,11 @@ Monitor refund amounts, refund counts, and refunds as a percentage of revenue ea
 ## Tools and Technologies 
 
 • **Microsoft Power BI** — Interactive dashboards and visual analytics
+
 • **Power Query** — Data cleaning and transformation
+
 • **DAX** — Measures, KPIs, and time-based calculations
+
 • **Data Modeling** — Relationships between transactional and website analytics tables
 
 ## Dashboard Features 
